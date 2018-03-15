@@ -1,0 +1,10 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3001"
+  },
+  "devDependencies": {
+    "json-server": "^0.9.4"
+  }
+}
