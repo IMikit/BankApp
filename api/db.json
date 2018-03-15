@@ -2,25 +2,20 @@
   "accounts": [
     {
       "id": 1,
-      "name": "Current Account",
-      "balance": 190
+      "name": "Compte courant",
+      "balance": 90
     },
     {
       "id": 2,
-      "name": "Savings",
-      "balance": 185
-    },
-    {
-      "name": "hj,",
-      "balance": 100,
-      "id": 3
+      "name": "Livret A",
+      "balance": 285
     }
   ],
   "transactions": [
     {
       "id": 1,
       "date": "2017-01-30T19:40:00.000Z",
-      "description": "Costa",
+      "description": "CB",
       "debit": 4.59,
       "credit": null,
       "accountId": 1
@@ -28,14 +23,14 @@
     {
       "id": 2,
       "date": "2017-01-29T00:00:00.000Z",
-      "description": "Payment Received (Wage)",
+      "description": "Chèque",
       "debit": null,
-      "credit": 0.01,
+      "credit": 50,
       "accountId": 1
     },
     {
       "date": "2017-02-15T22:22:45.488Z",
-      "description": "Transfer to Savings",
+      "description": "Transfert vers Livret A",
       "debit": 50,
       "credit": null,
       "accountId": 1,
@@ -43,25 +38,25 @@
     },
     {
       "date": "2017-02-15T22:22:45.500Z",
-      "description": "Transfer from Current Account",
+      "description": "Transfert du Compte Courant",
       "debit": null,
       "credit": 50,
       "accountId": 2,
       "id": 4
     },
     {
-      "date": "2018-03-15T09:31:29.457Z",
-      "description": "Transfer to Savings",
-      "debit": 10,
+      "date": "2018-03-15T10:55:21.074Z",
+      "description": "Transfer to Livret A",
+      "debit": 100,
       "credit": null,
       "accountId": 1,
       "id": 5
     },
     {
-      "date": "2018-03-15T09:31:29.457Z",
-      "description": "Transfer from Current Account",
+      "date": "2018-03-15T10:55:21.075Z",
+      "description": "Transfer from Compte courant",
       "debit": null,
-      "credit": 10,
+      "credit": 100,
       "accountId": 2,
       "id": 6
     }
